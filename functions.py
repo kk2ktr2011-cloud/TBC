@@ -5,9 +5,9 @@ def enemy_health():
     return enemy_health
 
 def enemy_atk():
-    enemy_atk = random.randint(1, 20)
+    enemy_atk = random.randint(1, 10)
     return enemy_atk
 
 def enemy_def():
-    enemy_def = random.randint(1, 20)
+    enemy_def = random.randint(1, 10)
     return enemy_def
